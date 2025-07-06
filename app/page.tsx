@@ -123,8 +123,6 @@ export default function Home() {
           handleSubmit={handleSubmit}
           loading={loading}
         />
-
-        <Logos />
       </section>
 
       <Footer />
