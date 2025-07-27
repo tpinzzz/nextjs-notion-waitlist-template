@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/scheduler",
+      "destination": "https://residency-scheduler-sepia.vercel.app/index.html"
+    },
+    {
+      "source": "/scheduler/assets/(.*)",
+      "destination": "https://residency-scheduler-sepia.vercel.app/assets/$1"
+    },
+    {
+      "source": "/scheduler/(.*)",
+      "destination": "https://residency-scheduler-sepia.vercel.app/index.html"
+    }
+  ]
+}
