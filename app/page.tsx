@@ -12,7 +12,8 @@ export default function Home() {
 
         {/* Waitlist form */}
         <div className="mt-8">
-          <form action="https://formspree.io/f/YOUR_ENDPOINT" method="POST" className="space-y-3">
+          <form action="https://formspree.io/f/mrbogbwz" method="POST" className="space-y-3">
+            
             <input name="name" type="text" placeholder="Your Name" required
               className="w-full rounded-md px-3 py-2 bg-zinc-900 border border-zinc-700" />
             <input name="email" type="email" placeholder="Your Email Address" required
