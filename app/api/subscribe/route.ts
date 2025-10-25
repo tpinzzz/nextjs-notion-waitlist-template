@@ -28,12 +28,11 @@ export async function GET() {
 
 export async function POST(req: Request) {
   try {
-    const { name, email, source } = await req.json();
+    const { name, email} = await req.json();
     if (!name || !email) return NextResponse.json({ ok:false, error:"Missing fields" }, { status: 400 });
 
     const props: any = {
       Name:   { title: [{ text: { content: String(name).slice(0,200) } }] },
-      Source: { rich_text: source ? [{ text: { content: String(source).slice(0,500) } }] : [] },
       Email:  { email: String(email) },
     };
 
