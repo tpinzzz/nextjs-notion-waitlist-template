@@ -45,7 +45,7 @@ export default function CTA() {
       <motion.div variants={itemVariants}>
         <TextBlur
           className="mx-auto max-w-[27rem] pt-1.5 text-center text-base text-zinc-300 sm:text-lg"
-          text="Join forward-thinking programs reducing burnout through fair, transparent schedules"
+          text="This is a test"
           duration={0.8}
         />
       </motion.div>
