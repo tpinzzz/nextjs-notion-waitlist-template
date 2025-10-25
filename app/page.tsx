@@ -14,6 +14,7 @@ export default function Home() {
         <div className="mt-8">
           <form action="https://formspree.io/f/mrbogbwz" method="POST" className="space-y-3">
             
+            <input type="hidden" name="_next" value="https://schedulerrx.com/thanks" />
             <input name="name" type="text" placeholder="Your Name" required
               className="w-full rounded-md px-3 py-2 bg-zinc-900 border border-zinc-700" />
             <input name="email" type="email" placeholder="Your Email Address" required
