@@ -17,7 +17,7 @@ export default function Home() {
         </div>
 
         <p className="mt-8 text-sm text-zinc-400">
-          Built in Raleigh, NC — Part of the RIoT Accelerator Program.
+          Built in Fayetteville, NC — Accelerated in Raleigh with RIoT.
         </p>
       </div>
     </main>
