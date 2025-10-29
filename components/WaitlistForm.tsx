@@ -38,7 +38,7 @@ export default function WaitlistForm() {
         className="w-full rounded-md px-3 py-2 bg-zinc-900 border border-zinc-700" />
       <button disabled={loading}
         className="w-full rounded-md px-3 py-2 bg-yellow-400 text-black font-medium disabled:opacity-60">
-        {loading ? "Adding…" : "Join Waitlist"}
+        {loading ? "Adding…" : "Sign Up for Updates"}
       </button>
       {msg && <p className="text-sm text-zinc-300">{msg}</p>}
       {/* Honeypot */}
